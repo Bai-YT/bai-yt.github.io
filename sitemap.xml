@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://bai-yt.github.io/yatong-bai/</loc>
+  <lastmod>2023-02-27T18:33:52+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://bai-yt.github.io/yatong-bai/index.html</loc>
+  <lastmod>2023-02-27T18:33:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bai-yt.github.io/yatong-bai/publications.html</loc>
+  <lastmod>2023-02-27T18:33:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bai-yt.github.io/yatong-bai/teaching.html</loc>
+  <lastmod>2023-02-27T18:33:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bai-yt.github.io/yatong-bai/coursework.html</loc>
+  <lastmod>2023-02-27T18:33:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bai-yt.github.io/yatong-bai/files/index/Resume%20Yatong%20Bai%20One%20Page.pdf</loc>
+  <lastmod>2023-02-27T18:33:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bai-yt.github.io/yatong-bai/files/publications/AdaptiveSmoothing_PrePrint.pdf</loc>
+  <lastmod>2023-02-27T18:33:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bai-yt.github.io/yatong-bai/files/publications/LGS_PrePrint.pdf</loc>
+  <lastmod>2023-02-27T18:33:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bai-yt.github.io/yatong-bai/files/publications/MixedClassifier_PrePrint.pdf</loc>
+  <lastmod>2023-02-27T18:33:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
