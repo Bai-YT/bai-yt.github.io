@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +9,8 @@
     <link rel="stylesheet" href="consistency_tta/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
+
+
 <body>
     <header>
         <h1>Accelerating Diffusion-Based Text-to-Audio<br>Generation with Consistency Distillation</h1>
@@ -30,26 +34,32 @@
     <section class="description">
         <h2>Description</h2>
         <p>
-          Diffusion models power a vast majority of the text-to-audio generation methods.
-          Unfortunately, diffusion models suffer from a slow inference speed due to iteratively querying the
-          underlying denoising network, thus unsuitable for applications with time or computational constraints.
-          This work modifies the recently proposed "consistency distillation" framework to train text-to-audio models
-          that only require a single neural network query, accelerating the generation hundreds of times.
+            Diffusion models power a vast majority of the text-to-audio generation methods.
+            Unfortunately, diffusion models suffer from a slow inference speed due to iteratively querying the
+            underlying denoising network, thus unsuitable for applications with time or computational constraints.
+            This work modifies the recently proposed "consistency distillation" framework to train text-to-audio models
+            that only require a single neural network query, accelerating the generation hundreds of times.
         </p>
         <p>
-          By incorporating classifier-free guidance into the distillation framework, our models retain diffusion models' impressive generation quality and diversity.
-          Furthermore, the non-recurrent differentiable structure resulting from the distillation allows fine-tuning with novel loss functions.
-          We use the CLAP loss as an example, confirming that end-to-end fine-tuning further boosts the generation quality.
+            By incorporating classifier-free guidance into the distillation framework, our models retain
+            diffusion models' impressive generation quality and diversity. Furthermore, the non-recurrent
+            differentiable structure resulting from the distillation allows fine-tuning with novel loss functions.
+            We use the CLAP loss as an example, confirming that end-to-end fine-tuning further boosts the generation quality.
         </p>
     </section>
 
     <section class="description">
-      <h2>Contact</h2>
-      <p>For any questions regarding our work, please email <a href="mailto:yatong_bai@berkeley.edu">yatong_bai@berkeley.edu</a>.</p>
+        <h2>Contact</h2>
+        <p>
+            For any questions regarding our work, please email
+            <a href="mailto:yatong_bai@berkeley.edu">yatong_bai@berkeley.edu</a>.
+        </p>
   </section>
 
     <footer>
         <p>&copy; Microsoft and UC Berkeley. All rights reserved.</p>
     </footer>
 </body>
+
+
 </html>
