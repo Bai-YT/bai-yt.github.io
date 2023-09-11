@@ -1,50 +1,71 @@
 /* Based on css file for jemdoc. */
 
+/* === GLOBAL STYLES === */
 @import url(
-	'https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&display=swap'
+	'https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap'
 );
 
-.dummy {
-	margin-bottom: 8px;
-	font-size: 16px
-}
-
-.dummy_l {
-	margin-bottom: 10px;
-	font-size: 17px
-}
-
-.tight {
-	margin-bottom: 0px;
-	font-size: 15px
-}
-
-.name {
-	font-size: 18px;
-	margin-bottom: 12px
-}
-
-table#tlayout {
-	border: none;
-	border-collapse: separate;
-	background: white;
-}
-
 body {
-	background: white;
-	font-family: "Playfair Display", serif;
+	font-size: 105%;
+	height: 100vh; /* 100% of the viewport height */
 	padding-bottom: 8px;
 	margin: 0;
+	display: grid;
+	background: white;
+	font-family: "Lato", serif;
 }
 
+.panel {
+    max-width: 60vw;
+	min-width: clamp(100px, calc(22vw - 20px), 260px);
+	min-height: clamp(100px, calc(22vw - 20px), 260px);
+    margin: 5px auto;
+	margin-top: 0px;
+	margin-left: clamp(-5px, calc(10vw - 100px), 20px);
+	margin-right: clamp(-10px, calc(10vw - 100px), 20px);
+    padding: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;  /* makes content stack vertically */
+    justify-content: center; /* centers content vertically */
+    align-items: start;      /* aligns content to the start (left) horizontally */
+}
+
+.panel2 {
+	width: calc(70vw - 45px);
+	max-width: 955px;
+	margin: 20px auto;
+    padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-style: double;
+	border-width: 4px;
+	border-color: #f0f0f0;
+    background-color: #fdfdfd;
+}
+
+.section {
+	width: 70vw;
+	max-width: 1000px;
+	margin: 0px;
+    padding: 5px;
+	border-style: none;
+    background-color: #ffffff;
+}
+
+/* === Navigation bar on the left === */
 #layout-menu {
-	background: #f6f6f6;
+	background: #f0f0f0;
 	border: 1px solid #dddddd;
-	padding-top: 0.5em;
-	padding-left: 8px;
-	padding-right: 8px;
-	font-size: 1.0em;
+	padding-top: 0.7em;
+	padding-left: clamp(5px, 2vw, 20px);
+	padding-right: clamp(5px, 2vw, 20px);
+	font-size: clamp(12px, 2.7vw, 1.15em);
 	width: auto;
+	max-width: 30vw;
 	white-space: nowrap;
 	text-align: left;
 	vertical-align: top;
@@ -55,6 +76,25 @@ body {
 	vertical-align: top;
 }
 
+#layout-menu a {
+	line-height: 1.5em;
+	margin-left: 0.5em;
+}
+
+div.menu-category {
+	border-bottom: 1px solid gray;
+	margin-top: 0.8em;
+	padding-top: 0.2em;
+	padding-bottom: 0.1em;
+	font-weight: bold;
+}
+
+div.menu-item {
+	padding-left: 10px;
+	text-indent: -12px;
+	max-width: 20vw;
+}
+
 #layout-content {
 	padding-top: 0.0em;
 	padding-left: 1.0em;
@@ -63,11 +103,6 @@ body {
 	background: white;
 	text-align: left;
 	vertical-align: top;
-}
-
-#layout-menu a {
-	line-height: 1.5em;
-	margin-left: 0.5em;
 }
 
 tt {
@@ -100,19 +135,6 @@ a:hover {
 	text-decoration: none;
 }
 
-div.menu-category {
-	border-bottom: 1px solid gray;
-	margin-top: 0.8em;
-	padding-top: 0.2em;
-	padding-bottom: 0.1em;
-	font-weight: bold;
-}
-
-div.menu-item {
-	padding-left: 16px;
-	text-indent: -16px;
-}
-
 div#toptitle {
 	padding-bottom: 0.2em;
 	margin-bottom: 1.5em;
@@ -129,6 +151,7 @@ div#subtitle {
 	margin-bottom: 0.0em;
 	padding-top: 0em;
 	padding-bottom: 0.1em;
+	text-align: center;
 }
 
 em {
@@ -139,7 +162,7 @@ strong {
 	font-weight: bold;
 }
 
-
+/* === Typography === */
 h1, h2, h3 {
 	color: #527bbd;
 	margin-top: 0.7em;
@@ -151,7 +174,8 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 165%;
+	font-size: 190%;
+	font-weight: 900;
 }
 
 h2 {
@@ -168,9 +192,29 @@ h3 {
 	border-bottom: none;
 }
 
+.intro {
+	margin-bottom: 8px;
+	font-size: 17px
+}
+
+.intro_large {
+	margin-bottom: 10px;
+	font-size: 18px
+}
+
+.intro_tight {
+	margin-bottom: 0px;
+	font-size: 16px
+}
+
+.name {
+	margin-bottom: 12px;
+	font-size: 19px
+}
+
 p {
-	margin-top: 0.0em;
-	margin-bottom: 0.8em;
+	margin-top: 0.6em;
+	margin-bottom: 0em;
 	padding: 0;
 	line-height: 1.3;
 }
@@ -198,6 +242,7 @@ div#footer-text {
 }
 
 ul, ol, dl {
+	margin-left: -0.7em;
 	margin-top: 0.2em;
 	padding-top: 0;
 	margin-bottom: 0.8em;
@@ -239,7 +284,7 @@ ol {
 }
 
 li p, dd p {
-	margin-bottom: 0.3em;
+	margin-bottom: 0.75em;
 }
 
 
@@ -346,25 +391,28 @@ div#toptitle h1, #layout-content div#toptitle h1 {
 	padding-top: 0;
 	margin-top: 0.5em;
 	border-bottom: none;
+	text-align: center;
 }
 
-img.eq {
-	padding: 0;
-	padding-left: 0.1em;
-	padding-right: 0.1em;
-	margin: 0;
+img {
+	border: none;
+	width: clamp(120px, 22vw, 280px);
+	height: clamp(120px, 22vw, 280px);
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+	margin-left: clamp(-10px, calc(10vw - 100px), 20px);
+	margin-right: clamp(-5px, calc(10vw - 100px), 20px);
 }
 
-img.eqwl {
-	padding-left: 2em;
-	padding-top: 0.6em;
-	padding-bottom: 0.2em;
-	margin: 0;
-}
-
+/* === TABLE STYLES === */
 table {
 	border: 2px solid black;
 	border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table + table {
+	margin-top: 1em;
 }
 
 td {
@@ -373,22 +421,21 @@ td {
 	padding-right: 0.5em;
 	text-align: center;
 	border: 1px solid gray;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-table + table {
-	margin-top: 1em;
+.tlayout, .tlayout td {
+	border: none;
+}
+
+.imgtable, .imgtable td {
+	max-width: 60vw;
+	border: none;
+	text-align: left;
 }
 
 tr.heading {
 	font-weight: bold;
 	border-bottom: 2px solid black;
-}
-
-img {
-	border: none;
-}
-
-table.imgtable, table.imgtable td {
-	border: none;
-	text-align: left;
 }
