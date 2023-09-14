@@ -25,7 +25,7 @@ header h3 {
 
 .section {
     font-weight: 400;
-    max-width: 800px;
+    max-width: 850px;
     margin: 20px auto;
     padding: 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -55,6 +55,32 @@ button {
     border-radius: 4px;  /* Rounded button edges */
 }
 
+.eval_rating_button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: auto
+}
+
+.clicked {
+    background-color: #008CBA;
+}
+
+.home-button {
+    background-color: #7a5947;
+}
+
+.demo-button {
+    background-color: #7a5947;
+}
+
 .demo-button {
     background-color: #7a5947;
 }
@@ -65,6 +91,15 @@ button {
 
 .eval-button {
     background-color: #5d5d5d;
+}
+
+.eval-button-small {
+    background-color: #5d5d5d;
+    font-size: 1em;
+    width: 160px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 8px 5px;
 }
 
 button:hover {

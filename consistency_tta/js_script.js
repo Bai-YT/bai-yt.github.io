@@ -6,7 +6,7 @@ function saveRating(rating, thing, aspect) {
     localStorage.setItem(key, rating);
 
     // Reset color of all buttons for the current thing and aspect
-    let buttons = document.querySelectorAll('#' + key + ' .button');
+    let buttons = document.querySelectorAll('#' + key + ' .eval_rating_button');
     buttons.forEach(button => button.classList.remove("clicked"));
 
     // Change color of clicked button
@@ -26,7 +26,7 @@ function clearRatings() {
         localStorage.clear();
 
         // Reset all button colors
-        let buttons = document.querySelectorAll('.button');
+        let buttons = document.querySelectorAll('.eval_rating_button');
         buttons.forEach(button => button.classList.remove("clicked"));
 
         // Clear all messages
@@ -47,7 +47,9 @@ document.addEventListener('DOMContentLoaded', function() {
         aspects.forEach(aspect => {
             let rating = localStorage.getItem(thing + '-' + aspect);
             if (rating) {
-                let buttons = document.querySelectorAll('#' + thing + '-' + aspect + ' .button');
+                let buttons = document.querySelectorAll(
+                    '#' + thing + '-' + aspect + ' .eval_rating_button'
+                );
                 buttons[rating - 1].classList.add("clicked");
             }
         });
@@ -87,7 +89,7 @@ function setButtonColorsFromLocalStorage() {
         let key = localStorage.key(i);
         let rating = localStorage.getItem(key);
 
-        let buttons = document.querySelectorAll('#' + key + ' .button');
+        let buttons = document.querySelectorAll('#' + key + ' .eval_rating_button');
         buttons.forEach(button => button.classList.remove("clicked"));  // Reset all button colors
         buttons[rating - 1].classList.add("clicked");  // Set the color of the rated button
     }
