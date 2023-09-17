@@ -1,6 +1,9 @@
 @import url(
 	'https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap'
 );
+@import url(
+    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'
+);
 
 body {
     font-family: 'Lato', sans-serif;
@@ -28,6 +31,7 @@ header h3 {
     max-width: 850px;
     margin: 20px auto;
     padding: 20px;
+    padding-top: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     background-color: #fff;
 }
@@ -144,4 +148,44 @@ tr td:last-child {
 
 audio.scaled {
     height: 36px; /* Adjust this value as needed */
+}
+
+.bibtex {
+    font-family: "Courier New", monospace;
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;    /* makes the area look clickable */
+    overflow: hidden;   /* Ensures the copy icon is contained within the div */
+}
+
+.bibtex pre {
+    margin: 0;  /* Removes default margin from <pre> */
+    font-family: inherit;  /* Ensures font consistency */
+    font-size: .9em;
+    white-space: pre-wrap;       /* CSS3 */
+    white-space: -moz-pre-wrap;  /* Firefox */
+    white-space: -pre-wrap;      /* Opera <7 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* IE */
+}
+
+.copy-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;  /* or adjust as needed */
+    color: #000;  /* Color of the icon */
+    background-color: transparent;  /* No fill */
+}
+
+.bibtex:hover {
+    background-color: #e8e8e8;  /* subtle hover effect */
+}
+
+.bibtex:hover .copy-icon {
+    color: #007BFF;  /* Change color on hover for better user feedback */
 }

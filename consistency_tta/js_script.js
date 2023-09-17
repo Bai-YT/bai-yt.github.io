@@ -97,3 +97,15 @@ function setButtonColorsFromLocalStorage() {
 
 // Event listener to execute the function when the content is loaded
 document.addEventListener('DOMContentLoaded', setButtonColorsFromLocalStorage);
+
+function copyToClipboard(elementId) {
+    let element = document.getElementById(elementId);
+    let range = document.createRange();
+    range.selectNode(element);
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    document.execCommand('copy');
+    window.getSelection().removeAllRanges();
+
+    alert("BibTeX copied to clipboard!");
+}
