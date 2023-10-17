@@ -91,14 +91,19 @@ button {
 
 .home-button {
     background-color: #597a47;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 .demo-button {
     background-color: #7a5947;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 .paper-button {
-    background-color: #158590;
+    background-color: #1db6c7;
+    font-weight: bold;
+    text-shadow: 3px 3px 1.5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 .eval-button {
