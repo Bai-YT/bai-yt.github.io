@@ -8,48 +8,63 @@
 
 
 <url>
-  <loc>https://bai-yt.github.io/yatong-bai/</loc>
-  <lastmod>2023-02-27T18:33:52+00:00</lastmod>
+  <loc>https://bai-yt.github.io/</loc>
+  <lastmod>2023-10-19T07:37:57+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://bai-yt.github.io/yatong-bai/index.html</loc>
-  <lastmod>2023-02-27T18:33:52+00:00</lastmod>
+  <loc>https://bai-yt.github.io/index.html</loc>
+  <lastmod>2023-10-19T07:37:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://bai-yt.github.io/yatong-bai/publications.html</loc>
-  <lastmod>2023-02-27T18:33:52+00:00</lastmod>
+  <loc>https://bai-yt.github.io/publications.html</loc>
+  <lastmod>2023-10-19T07:37:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://bai-yt.github.io/yatong-bai/teaching.html</loc>
-  <lastmod>2023-02-27T18:33:52+00:00</lastmod>
+  <loc>https://bai-yt.github.io/teaching.html</loc>
+  <lastmod>2023-10-19T07:37:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://bai-yt.github.io/yatong-bai/coursework.html</loc>
-  <lastmod>2023-02-27T18:33:52+00:00</lastmod>
+  <loc>https://bai-yt.github.io/coursework.html</loc>
+  <lastmod>2023-10-19T07:37:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://bai-yt.github.io/yatong-bai/files/index/Resume%20Yatong%20Bai%20One%20Page.pdf</loc>
-  <lastmod>2023-02-27T18:33:52+00:00</lastmod>
+  <loc>https://bai-yt.github.io/files/index/Resume%20Yatong%20Bai%201.5%20Pages.pdf</loc>
+  <lastmod>2023-10-19T07:37:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://bai-yt.github.io/yatong-bai/files/publications/AdaptiveSmoothing_PrePrint.pdf</loc>
-  <lastmod>2023-02-27T18:33:52+00:00</lastmod>
+  <loc>https://bai-yt.github.io/files/publications/MixedClassifier_PrePrint.pdf</loc>
+  <lastmod>2023-10-19T07:37:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://bai-yt.github.io/yatong-bai/files/publications/LGS_PrePrint.pdf</loc>
-  <lastmod>2023-02-27T18:33:52+00:00</lastmod>
+  <loc>https://bai-yt.github.io/files/publications/AdaptiveSmoothing_PrePrint.pdf</loc>
+  <lastmod>2023-10-19T07:37:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://bai-yt.github.io/yatong-bai/files/publications/MixedClassifier_PrePrint.pdf</loc>
-  <lastmod>2023-02-27T18:33:52+00:00</lastmod>
+  <loc>https://bai-yt.github.io/files/publications/LGS_PrePrint.pdf</loc>
+  <lastmod>2023-10-19T07:37:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bai-yt.github.io/files/publications/RL_Report.pdf</loc>
+  <lastmod>2023-10-19T07:37:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bai-yt.github.io/files/publications/CS4641_Report.pdf</loc>
+  <lastmod>2023-10-19T07:37:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bai-yt.github.io/files/publications/Cochlear_Report.pdf</loc>
+  <lastmod>2023-10-19T07:37:56+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
