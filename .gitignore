@@ -2,3 +2,4 @@
 files/.DS_Store
 consistency_tta/replace.py
 consistency_tta/report_new.pdf
+*.pt
