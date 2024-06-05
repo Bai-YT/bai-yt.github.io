@@ -9,57 +9,67 @@
 
 <url>
   <loc>https://bai-yt.github.io/</loc>
-  <lastmod>2023-10-19T07:37:57+00:00</lastmod>
+  <lastmod>2024-06-04T18:07:26+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://bai-yt.github.io/index.html</loc>
-  <lastmod>2023-10-19T07:37:57+00:00</lastmod>
+  <lastmod>2024-06-04T18:07:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://bai-yt.github.io/publications.html</loc>
-  <lastmod>2023-10-19T07:37:57+00:00</lastmod>
+  <lastmod>2024-06-04T18:07:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://bai-yt.github.io/teaching.html</loc>
-  <lastmod>2023-10-19T07:37:57+00:00</lastmod>
+  <lastmod>2024-06-04T18:07:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://bai-yt.github.io/coursework.html</loc>
-  <lastmod>2023-10-19T07:37:56+00:00</lastmod>
+  <lastmod>2024-06-04T18:07:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://bai-yt.github.io/files/index/Resume%20Yatong%20Bai%20Two%20Pages.pdf</loc>
-  <lastmod>2023-10-19T07:37:56+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bai-yt.github.io/files/publications/MixedClassifier_PrePrint.pdf</loc>
-  <lastmod>2023-10-19T07:37:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bai-yt.github.io/files/publications/LGS_PrePrint.pdf</loc>
-  <lastmod>2023-10-19T07:37:57+00:00</lastmod>
+  <lastmod>2024-06-04T18:07:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://bai-yt.github.io/files/publications/RL_Report.pdf</loc>
-  <lastmod>2023-10-19T07:37:57+00:00</lastmod>
+  <lastmod>2024-06-04T18:07:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://bai-yt.github.io/files/publications/CS4641_Report.pdf</loc>
-  <lastmod>2023-10-19T07:37:56+00:00</lastmod>
+  <lastmod>2024-06-04T18:07:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://bai-yt.github.io/files/publications/Cochlear_Report.pdf</loc>
-  <lastmod>2023-10-19T07:37:56+00:00</lastmod>
+  <lastmod>2024-06-04T18:07:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bai-yt.github.io/files/ieor160_notes/univar_opt.pdf</loc>
+  <lastmod>2024-06-04T18:07:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bai-yt.github.io/files/ieor160_notes/convexity.pdf</loc>
+  <lastmod>2024-06-04T18:07:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bai-yt.github.io/files/ieor160_notes/multivar_opt.pdf</loc>
+  <lastmod>2024-06-04T18:07:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bai-yt.github.io/files/ieor160_notes/opt_algs.pdf</loc>
+  <lastmod>2024-06-04T18:07:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
