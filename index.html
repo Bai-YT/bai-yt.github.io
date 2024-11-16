@@ -49,7 +49,9 @@
 
                 <td>
                     <section class="panel">
-                        <p class="intro_large">Ph.D. Candidate</p>
+                        <p class="intro_large"><b>Ph.D. Candidate</b></p>
+
+                        <div style="height:4px;"></div>
 
                         <p class="intro_large">University of California, Berkeley</p>
 
@@ -63,21 +65,9 @@
                             target=&ldquo;blank&rdquo;>yatong_bai (at) berkeley.edu</a>
                         </p>
 
-                        <div style="height:8px;"></div>
-
-                        <p class="intro_tight">
-                            <a href="https://scholar.google.com/citations?hl=en&user=A9h086cAAAAJ" 
-                            target=&ldquo;blank&rdquo;>Google Scholar</a> &nbsp;&nbsp;&nbsp;
-                            <a href="https://www.semanticscholar.org/author/Yatong-Bai/2115297196"
-                            target=&ldquo;blank&rdquo;>Semantic Scholar</a></a>
-                        </p>
-
-                        <p class="intro_tight">
-                            <a href="https://www.linkedin.com/in/yatong-bai" target=&ldquo;blank&rdquo;>LinkedIn</a>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="https://github.com/Bai-YT" target=&ldquo;blank&rdquo;>GitHub</a>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="files/index/Resume Yatong Bai Two Pages.pdf" target=&ldquo;blank&rdquo;>CV</a>
+                        <p class="intro">
+                            <a href="https://bai-yt.github.io/files/index/Research Talk Open.pdf"
+                            target=&ldquo;blank&rdquo;>Research Portfolio Slides</a>
                         </p>
                     </section>
                 </td>
@@ -85,12 +75,12 @@
 
             <!-- Open to work -->
             <section class="panel_highlight">
-                <i><b>I am looking for full-time opportunities that start in 2025.</b></i>
+                <i><b>I am looking for full-time research/engineering opportunities that start in 2025.</b></i>
             </section>
 
             <!-- About -->
             <section class="panel2">
-                <h2>About</h2>
+                <h2>My Journey</h2>
 
                 <p>
                     I am a fifth-year Ph.D. candidate at the <a href="https://me.berkeley.edu"
@@ -100,7 +90,7 @@
                 </p>
 
                 <p>
-                    Prior to joining Berkeley, I obtained two Bachelor's degrees in computer engineering
+                    Prior to joining Berkeley, I obtained Bachelor's degrees in computer engineering
                     and mechanical engineering from 
                     <a href="https://www.gatech.edu" target=&ldquo;blank&rdquo;>Georgia Institute of Technology</a>, 
                     where I researched with Professors 
@@ -110,8 +100,13 @@
                 </p>
 
                 <p>
+                    I became increasingly interested in machine learning in my senior year, and decided to pursue
+                    a Ph.D. in the field, focusing on efficient and reliable deep learning and generative AI.
+                </p>
+
+                <p>
                     I have interned at 
-                    <a href="https://www.adobe.com" target=&ldquo;blank&rdquo;>Adobe</a>, 
+                    <a href="https://www.adobe.com" target=&ldquo;blank&rdquo;>Adobe Research</a>, 
                     <a href="https://www.microsoft.com" target=&ldquo;blank&rdquo;>Microsoft</a>, 
                     <a href="https://scale.com" target=&ldquo;blank&rdquo;>Scale AI</a>, 
                     <a href="https://www.hondajet.com" target=&ldquo;blank&rdquo;>Honda Aircraft Company</a>, and 
@@ -119,20 +114,44 @@
                 </p>
             </section>
 
+            <style>
+                p.intro {margin-bottom: 13px;} /* Adjust spacing below paragraphs */
+                li > p {margin-bottom: 8px;} /* Reduce space below section titles */
+                li ul {padding-left: 28px; margin-bottom: 5px;} /* Smaller indentation for nested lists */
+                li ul li {margin-bottom: 1px;} /* Space between sub-items */
+            </style>
+
             <!-- Research insterests -->
             <section class="panel2">
-                <h2>Research interests</h2>
+                <h2>Research Interests</h2>
 
                 <p>
-                    My interests include generative models (particulaly audio/music), robust deep learning, (convex) optimization, and controls.
+                    <b>My research aims to make deep learning and generative AI more efficient, aligned, robust, and reliable.</b>
+                    My interests span across generative models (particulaly audio/music), robust deep learning,
+                    (convex) optimization, reinforcement learning, and controls.
                 </p>
-                <p>
-                    Specifically, I enjoy working on ensuring the adversarial robustness of neural networks, addressing 
-                    the "accuracy-robustness trade-off", and accelerating their training via theoretically disciplined 
-                    methods, while still maintaining their impressive performances.
-                </p>
-                <p>
-                    I also strive to accelerate audio generation models while preserving their generation quality and diversity.
+                <p class="intro">
+                    Specifically, my research areas so far include:
+                    <ul>
+                    <li><p> Diffusion Models (Audio/Music Generation). </p><ul>
+                        <li> Accelerating diffusion-based text-to-audio generation with consistency distillation 
+                            (<a href="https://arxiv.org/abs/2309.10740" target=&ldquo;blank&rdquo;>ConsistencyTTA</a>). </li>
+                        <li> Using reinforcement learning to align text-to-music generation to human preferences (ongoing). </li>
+                    </ul></li>
+                    <li><p> Robust Deep Learning. </p><ul>
+                        <li> Analyzing the vulnerabilities of large language models (LLMs) when used in conversational search engines
+                            (<a href="https://arxiv.org/abs/2406.03589" target=&ldquo;blank&rdquo;>RAGDOLL</a>). </li>
+                        <li> Mixing classifiers to address the "accuracy-robustness trade-off" for image classifiers
+                            (<a href="https://arxiv.org/abs/2402.02263" target=&ldquo;blank&rdquo;>MixedNUTS</a>,
+                            <a href="https://arxiv.org/abs/2301.12554" target=&ldquo;blank&rdquo;>Adaptive Smoothing</a>). </li>
+                    </ul></li>
+                    <li><p> Convex Neural Network Optimization. </p><ul>
+                        <li> Efficient algorithms for training two-layer ReLU neural networks with global optimality guarantees
+                            (<a href="https://arxiv.org/abs/2201.01965" target=&ldquo;blank&rdquo;>link</a>). </li>
+                        <li> Convex formulations for adversarial training, which build two-layer networks with adversarial robustness
+                            (<a href="https://arxiv.org/abs/2105.12237" target=&ldquo;blank&rdquo;>link</a>). </li>
+                    </ul></li>
+                    </ul>
                 </p>
             </section>
 
